@@ -1,0 +1,428 @@
+<nav class="navbar navbar-default navbar-main navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                </button>
+      <a class="navbar-brand" href="#myCarousel">Mitsuko Website</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>                    </li>
+        <li class="page-scroll">
+          <a href="#home"><span class="glyphicon glyphicon-home"></span> Home</a>                    </li>
+        <li class="page-scroll">
+          <a href="#presentation"><span class="glyphicon glyphicon-user"></span> Presentation</a>                    </li>
+        <li class="page-scroll">
+          <a href="#experience"><span class="glyphicon glyphicon-briefcase"></span> Experience</a>                    </li>
+        <li class="page-scroll">
+          <a href="#projet"><span class="glyphicon glyphicon-user"></span> Projet</a>                    </li>
+        <li class="page-scroll">
+          <a href="#loisir"><span class="glyphicon glyphicon-user"></span> Loisir</a>                    </li>
+        <li class="page-scroll">
+          <a href="#portfolio"><span class="glyphicon glyphicon-pencil"></span> Galerie</a>                    </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+<!-- Carousel -->
+<div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/Banniere/couv3.jpg" alt="First slide">            </div>
+    <div class="item">
+      <img src="images/Banniere/couv2.jpg" alt="Second slide"/>            </div>
+    <div class="item">
+      <img src="images/Banniere/couv4.jpg" alt="Third slide"/>            </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>    </div>
+<!-- /.carousel -->
+<!-- Navigation -->
+<nav class="navbar-second navbar-default">
+  <div class="container">
+    <br/>
+    <br/>
+    <br class="hidden-lg hidden-md hidden-sm"/>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="https://www.worldcubeassociation.org/results/p.php?i=2012MARI02"><span class="glyphicon glyphicon-th-large"></span> Cube Profile</a></li>
+        <li><a href="http://users.polytech.unice.fr/~amarin/data/Galerie.php"><span class="glyphicon glyphicon-pencil"></span> Mes BDs</a></li>
+        <li><a href="http://users.polytech.unice.fr/~lc406813/PlayForLife/"><span class="glyphicon glyphicon-tower"></span> Gestion Projet</a></li>
+        <li><a href="http://users.polytech.unice.fr/~amarin/THE%20MABOUL%20QUIZZ/index.php">THE MABOUL QUIZZ ▲</a></li>
+        <li><a href="https://www.youtube.com/user/MitsukoLawL/videos">Youtube ►</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://users.polytech.unice.fr/~amarin/cours/"><span class="glyphicon glyphicon-book"></span> Cours</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+  <br class="hidden-xs"/>
+  <br class="hidden-xs"/>
+</nav>
+
+<!-- 2 - Introduction Section -->
+<header>
+  <section class="succes" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <img class="img-responsive" src="images/profil.png" alt="">
+          <div class="intro-text">
+            <span class="name">Mitsuko Website</span>
+            <hr class="star-light">
+            <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>                    </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
+
+<!-- 3- Presentation Section -->
+<section id="presentation">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Bienvenu</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-2">
+        <p>{{presentation.Texte1}}</p>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+      </div>
+      <div class="col-lg-4">
+        <p>{{presentation.Texte2}}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <a href="http://fr.linkedin.com/pub/alicia-marin/b3/b75/892/" class="btn btn-lg btn-primary">
+          <i class="fa fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 - Experience Section -->
+<section id="experience" class="success">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-10 col-lg-offset-1">
+          <h2>Experience</h2>
+          <hr class="star-light">
+          <div class="row">
+            <div class="col-md-4 col-sm-6" ng-repeat="exp in experience">
+              <div class="service-item">
+                                <span class="fa-stack fa-5x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa {{exp.fa}} fa-stack-1x text-success"></i>
+                            </span>
+                <h4>
+                  <strong>{{exp.titre}}</strong>
+                </h4>
+                <p>{{exp.description}}</p>
+              </div>
+            </div>
+          </div>
+          <!-- /.row (nested) -->
+        </div>
+        <!-- /.col-lg-10 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<!-- 5 - Projet Section -->
+<section id="projet">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Projets</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-3" ng-repeat="proj in projet">
+        <img src="{{projet.image}}" class="img-responsive  img-circle" alt=""/>
+        <h4>{{proj.name}}</h4>
+        <p> {{proj.description}}</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 6 - Loisir Section -->
+<section id="loisir" class="success">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Passions</h2>
+        <hr class="star-light">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4" ng-repeat="loisir in loisirs">
+        <h4>{{loisir.Titre}}</h4>
+        <p> {{loisir.texte}}</p>
+        <img src="{{loisir.image}}" class="img-responsive  img-circle" alt=""/>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- 7 - Galerie Section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Galerie</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 portfolio-item" ng-repeat="img in galerie">
+        <a href="#{{img.href}}" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="{{img.source}}" class="img-responsive img-rounded" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  <p class="text-center"><a class="btn btn-lg btn-primary" href="http://users.polytech.unice.fr/~amarin/data/Galerie.php" role="button">Explorer la galerie</a></p>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+  <div class="footer-above">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-4">
+          <h3>{{footer.gauche.titre}}</h3>
+          <p>{{footer.gauche.texte}}</p>
+        </div>
+        <div class="footer-col col-md-4">
+          <h3>{{footer.milieu.titre}}</h3>
+          <ul class="list-inline">
+            <li ng-repeat="l in lien">
+              <a href="{{l.href}}" class="btn-social btn-outline"><i class="{{l.class}}"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col col-md-4">
+          <h3>{{footer.droite.titre}}</h3>
+          <p>{{footer.droite.texte}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-below">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          Copyright &copy; Mitsuko 2015
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll visible-xs visble-sm">
+  <a class="btn btn-primary" href="#page-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</div>
+
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Le Soulagement</h2>
+            <hr class="star-primary">
+            <img src="images/pic1.jpg" class="img-responsive img-centered" alt="">
+            <p>Je ne savais pas encore le résoudre.</p>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">                    </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Adieu</h2>
+            <hr class="star-primary">
+            <img src="images/pic2.jpg" class="img-responsive img-centered" alt="">
+            <p>Fini les TPE !!</p>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">                    </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Moi, et les réceptions aux volley</h2>
+            <hr class="star-primary">
+            <img src="images/pic3.jpg" class="img-responsive img-centered" alt="">
+            <p>Pendant la seconde, premiere, terminale... et oui je ne me suis pas vraiment améliorée!</p>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">                    </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Une future professionnelle</h2>
+            <hr class="star-primary">
+            <img src="images/pic4.jpg" class="img-responsive img-centered" alt="">
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">                    </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Dragon</h2>
+            <hr class="star-primary">
+            <img src="images/pic5.jpg" class="img-responsive img-centered" alt="">
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">                    </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Saut de la Morkitu</h2>
+            <hr class="star-primary">
+            <img src="images/pic6.jpg" class="img-responsive img-centered" alt="">
+            <p>Ma réaction lors d'un saut (pendule) en escalade. (Preuve en vidéo :p)</p>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery -->
+<script src="scripts/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="scripts/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="scripts/classie.js"></script>
+<script src="scripts/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="scripts/jqBootstrapValidation.js"></script>
+<script src="scripts/contact_me.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="scripts/freelancer.js"></script>

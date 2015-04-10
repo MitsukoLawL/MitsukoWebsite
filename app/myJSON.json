@@ -1,0 +1,75 @@
+{
+  "myCarousel" : [
+    {"source":"images/Banniere/couv2.jpg", "alt":"Second"},
+    {"source":"images/Banniere/couv4.jpg", "alt":"Third"}
+  ],
+  "Introduction" : {
+    "Titre" : "Mitsuko Website",
+      "Texte" : "Web Developer - Graphic Artist - User Experience Designer"
+  },
+
+  "Presentation" : {
+    "Titre": "\"Presentation\"",
+    "Texte1": "Bonjour et bienvenu sur ma page web! Cette page a pour but de me présenter. Vous trouverez ci-dessous mon experience, mes projets, mes passions ainsi qu'une galerie de dessin",
+    "Texte2": "Je m'appelle Alicia et je suis étudiante en école d'ingénieur à Polytech. Je suis passionnée par les nouvelles technologie et les activités qui sortent de l'ordinaire"
+  },
+
+    "Experience" : [
+      {"titre":"Diplome", "description":"Baccalauréat Scientifique", "fa":"fa-mortar-board"},
+      {"titre":"Etude", "description":"Polytech, 3ème année", "fa":"fa-university"},
+      {"titre":"Developpement", "description":"Java, C, Python, HTML, CSS, PHP, Javascript", "fa":"fa-code"},
+       {"titre":"Associatif", "description":"Trésorière du Bureau des Jeux (BDJ)", "fa":"fa-comments-o"},
+      {"titre":"Animation/Vente", "description":"Festival International des Jeux, Play For Life", "fa":"fa-smile-o"},
+      {"titre":"Restauration", "description":"McDonald's", "fa":"fa-cutlery"}
+    ],
+
+    "Projet" : [
+        {"name":"World of Zuul", "description":"Création d'un RPG textuel", "image":""},
+        {"name":"The Island", "description":"Programmation d'un automate recoltant des ressources sur une île generée aléatoirement", "image":""},
+        {"name":"The Maboul Quizz", "description":"Site Web contenant des quizz chronométrés", "image":""},
+        {"name":"Play For Life", "description":"Evenement à but caritatif pour le téléthon", "image":""},
+        {"name":"DeViNT", "description":"Création d'un jeu pour les déficients visuels", "image":""},
+        {"name":"Avalon Open", "description":"Organisation de la première compétition de Speedcube à Nice", "image":""},
+        {"name":"Turtle python", "description":"Création d'un plan d'une villa fictive en python", "image":""}
+    ],
+
+    "Loisirs" : [
+
+      {"Titre": "Cube", "texte": "Je pratique le speedcubing depuis le lycée, je participe à des compétitions annuelles","image": "images/Alicia cube.jpg"},
+      {"Titre": "Musique", "texte": "Je suis bassiste dans un groupe de musique amateur", "image": "images/Alicia basse1.jpg"},
+      {"Titre": "SpeedStacks", "texte": "Le speed stacking est un sport de coordination et de vitesse", "image": "images/Alicia stack.jpg"}
+    ],
+
+    "Galerie" : [
+      {"source":"images/pic1.jpg", "href":"portfolioModal1", "titre":"Le Soulagement", "description":"e ne savais pas encore le résoudre."},
+      {"source":"images/pic2.jpg", "href":"portfolioModal2", "titre":"Adieu", "description":"Fini les TPE !!"},
+      {"source":"images/pic3.jpg", "href":"portfolioModal3", "titre":"Moi, et les réceptions aux volley", "description":"Pendant la seconde, premiere, terminale... et oui je ne me suis pas vraiment améliorée!"},
+      {"source":"images/", "href":""},
+      {"source":"images/pic4.jpg", "href":"portfolioModal4", "titre":"Une future professionnelle"},
+      {"source":"images/pic5.jpg", "href":"portfolioModal5", "titre":"Dragon", "description":""},
+      {"source":"images/pic6.jpg", "href":"portfolioModal6", "titre":"Saut de la Morkitu", "description":"Ma réaction lors d'un saut (pendule) en escalade. (Preuve en vidéo :p)"}
+    ],
+
+    "Footer" : {
+      "gauche" :
+        {"titre" : "Contact Me",
+          "texte" : "nom.prenom[a]polytech.unice.fr"
+        },
+
+        "milieu" : {"titre" : "Around the Web",
+          "texte" : "btn-social"
+        },
+
+        "droite" : {"titre" : "Information",
+          "texte" : "Alicia Mitsuko"
+        }
+      },
+    "Lien" : [
+      {"href":"https://twitter.com/MitsukoLawL", "class": "fa fa-fw fa-twitter"},
+      {"href":"https://www.worldcubeassociation.org/results/p.php?i=2012MARI02", "class": "fa fa-fw fa-cube"},
+      {"href":"https://www.youtube.com/user/MitsukoLawL/videos", "class": "fa fa-fw fa-youtube-play"},
+      {"href":"http://users.polytech.unice.fr/~lc406813/PlayForLife/", "class": "glyphicon glyphicon-tower"},
+      {"href":"http://users.polytech.unice.fr/~amarin/data/Galerie.php", "class": "glyphicon glyphicon-pencil"}
+    ]
+
+    }
