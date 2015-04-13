@@ -24,7 +24,7 @@
         <li class="page-scroll">
           <a href="#projet"><span class="glyphicon glyphicon-user"></span> Projet</a>                    </li>
         <li class="page-scroll">
-          <a href="#loisir"><span class="glyphicon glyphicon-user"></span> Loisir</a>                    </li>
+          <a href="#loisir"><span class="glyphicon glyphicon-user"></span> Passion</a>                    </li>
         <li class="page-scroll">
           <a href="#portfolio"><span class="glyphicon glyphicon-pencil"></span> Galerie</a>                    </li>
       </ul>
@@ -111,7 +111,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Bienvenu</h2>
+        <h2>Présentation</h2>
         <hr class="star-primary">
       </div>
     </div>
@@ -119,15 +119,16 @@
       <div class="col-lg-4 col-lg-offset-2">
         <p>{{presentation.Texte1}}</p>
         <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
       </div>
       <div class="col-lg-4">
         <p>{{presentation.Texte2}}</p>
       </div>
+    </div>
+    <div class="row col-lg-7 col-lg-offset-2">
+      <blockquote class="blockquote-reverse">
+        <p>{{presentation.citation}}</p>
+        <footer>{{presentation.auteur}}</footer>
+      </blockquote>
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">

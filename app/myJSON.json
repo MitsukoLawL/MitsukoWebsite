@@ -10,8 +10,10 @@
 
   "Presentation" : {
     "Titre": "\"Presentation\"",
-    "Texte1": "Bonjour et bienvenu sur ma page web! Cette page a pour but de me présenter. Vous trouverez ci-dessous mon experience, mes projets, mes passions ainsi qu'une galerie de dessin",
-    "Texte2": "Je m'appelle Alicia et je suis étudiante en école d'ingénieur à Polytech. Je suis passionnée par les nouvelles technologie et les activités qui sortent de l'ordinaire"
+    "Texte1": "Bonjour et bienvenue sur ma page web! Cette page a pour but de me présenter. Vous trouverez ci-dessous mon experience, mes projets, mes passions ainsi qu'une galerie de dessin",
+    "Texte2": "Je m'appelle Alicia et je suis étudiante en école d'ingénieur à Polytech. Je suis passionnée par les nouvelles technologie et les activités qui sortent de l'ordinaire",
+    "citation": "Ce n'est pas parce que c'est difficile qu'on n'ose pas, c'est parce qu'on n'ose pas que c'est difficile.",
+    "auteur": "Sénèque"
   },
 
     "Experience" : [
